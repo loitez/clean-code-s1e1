@@ -21,12 +21,12 @@ body {
         text-align: center;
     }
 }
-.centered-main-page-element {
+.to-do-container {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
-.task {
+.to-do-task {
     width: 56%;
     display: inline-block;
     flex-grow: 1
