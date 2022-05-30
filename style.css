@@ -13,7 +13,7 @@ body {
 .matrix img {
     width: 100%;
 }
-.matrix .matrix__link {
+.matrix__link {
     font-family: fantasy, cursive;
 }
 @media (max-width:768px) {
@@ -89,7 +89,7 @@ label[for="new-task"] {
     display: block;
     margin: 0 0 20px;
 }
-input#new-task {
+#new-task {
     width: 318px;
 }
 /* Task list */
@@ -117,18 +117,18 @@ li > label {
 li > input[type="text"] {
     width: 226px
 }
-button.to-do__task_delete img {
+.to-do__task_delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.to-do__task_delete img:hover {
+.to-do__task_delete img:hover {
     transform: rotateZ(0
 
     );
 }
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
     text-decoration: line-through;
     color: #888;
 }
