@@ -13,7 +13,7 @@ body {
 .matrix img {
     width: 100%;
 }
-.matrix .more_inf {
+.matrix .matrix__link {
     font-family: fantasy, cursive;
 }
 @media (max-width:768px) {
