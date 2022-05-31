@@ -139,13 +139,13 @@ li > input[type="text"] {
   width: 226px
 }
 
-.to-do__task_delete img {
+.to-do__button_delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.to-do__task_delete img:hover {
+.to-do__button_delete img:hover {
   transform: rotateZ(0
   );
 }
